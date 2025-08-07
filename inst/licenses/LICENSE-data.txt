@@ -1,0 +1,136 @@
+# Licensing Information for `JapanAPIs` Package
+
+This package, `JapanAPIs`, includes datasets sourced from various R packages. In order to maintain consistency and clarity, a naming convention has been applied where suffixes are added to the dataset names to indicate the type and format of the datasets. The original content of these datasets has not been altered in any way.
+
+## Dataset Licensing Information:
+
+- jpnprefs_tbl_df:
+  Originally jpnprefs from the zipangu 0.3.3 package, licensed under MIT + file LICENSE. The dataset name has been changed to 'jpnprefs_tbl_df' to indicate that this dataset is a tibble object.
+
+- jpn_us_cars_df:
+  Originally auto from the fma 2.5 package, licensed under GPL-3. The dataset name has been changed to 'jpn_us_cars_df' to indicate that this dataset is a data frame object.
+
+- jpn_vehicle_prod_ts:
+  Originally jcars from the fma 2.5 package, licensed under GPL-3. The dataset name has been changed to 'jpn_vehicle_prod_ts' to indicate that this dataset is a time series object.
+
+- jpn_usd_exchange_df:
+  Originally Yen from the Ecdat 0.4-2 package, licensed under GPL (>= 2). The dataset name has been changed to 'jpn_usd_exchange_df' to indicate that this dataset is a data frame object.
+
+- JNcharacter_df:
+  Originally JNcharacter from the catdap 1.3.7 package, licensed under GPL (>= 2). The dataset name has been changed to 'JNcharacter_df' to indicate that this dataset is a data frame object.
+
+- jpn_gdp_cons_df:
+  Originally Japan from the SupMZ 0.2.0 package, licensed under GPL-2. The dataset name has been changed to 'jpn_gdp_cons_df' to indicate that this dataset is a data frame object.
+
+- jpn_eq_miyagi_2003_df:
+  Originally Miyagi20030626 from the mmpp 0.6 package, licensed under GPL-2. The dataset name has been changed to 'jpn_eq_miyagi_2003_df' to indicate that this dataset is a data frame object.
+
+- tokaido_stations_tbl_df:
+  Originally jreast_jt from the ssrn 0.1.0 package, licensed under MIT + file LICENSE. The dataset name has been changed to 'tokaido_stations_tbl_df' to indicate that this dataset is a tibble object.
+
+- jpn_prefectures_tbl_df:
+  Originally jpn77 from the tabularmaps 0.1.0 package, licensed under CC BY-SA 4.0. The dataset name has been changed to 'jpn_prefectures_tbl_df' to indicate that this dataset is a tibble object.
+
+- tokyo_wards_tbl_df:
+  Originally tky23 from the tabularmaps 0.1.0 package, licensed under CC BY-SA 4.0. The dataset name has been changed to 'tokyo_wards_tbl_df' to indicate that this dataset is a tibble object.
+
+- tokyo_rainfall_vec:
+  Originally trd from the gamlss.data 6.0-6 package, licensed under GPL-2 | GPL-3. The dataset name has been changed to 'tokyo_rainfall_vec' to indicate that this dataset is a numeric vector object.
+
+- hiroshima_tbl_df:
+  Originally hiroshima from the dobson 0.4 package, licensed under GPL-2. The dataset name has been changed to 'hiroshima_tbl_df' to indicate that this dataset is a tibble object.
+
+- jpn_manga_hafu_df:
+  Originally hafu from the learningr 0.29.1 package, licensed under Unlimited. The dataset name has been changed to 'jpn_manga_hafu_df' to indicate that this dataset is a data frame object.
+
+- sake_ratings_df:
+  Originally Sake from the heplots 1.7.0 package, licensed under GPL (>= 2). The dataset name has been changed to 'sake_ratings_df' to indicate that this dataset is a data frame object.
+
+- seishu_wine_df:
+  Originally sheishu from the ACSWR 1.0 package, licensed under GPL-2. The dataset name has been changed to 'seishu_wine_df' to indicate that this dataset is a data frame object.
+
+- kobe_quake_1995_ts:
+  Originally kobe from the waveslim 1.8.5 package, licensed under BSD_3_clause + file LICENSE. The dataset name has been changed to 'kobe_quake_1995_ts' to indicate that this dataset is a time series object.
+
+- jpn_climate_tbl_df:
+  Originally climate_jp from the clidatajp 0.5.2 package, licensed under MIT + file LICENSE. The dataset name has been changed to 'jpn_climate_tbl_df' to indicate that this dataset is a tibble object.
+
+- jpn_climate_stations_tbl_df:
+  Originally station_jp from the clidatajp 0.5.2 package, licensed under MIT + file LICENSE. The dataset name has been changed to 'jpn_climate_stations_tbl_df' to indicate that this dataset is a tibble object.
+
+- nikkei_stock_index_df:
+  Originally nikkei from the tsgarch 1.0.3 package, licensed under GPL-2. The dataset name has been changed to 'nikkei_stock_index_df' to indicate that this dataset is a data frame object.
+
+- atomic_bomb_survivors_df:
+  Originally atombomb from the ACSWR 1.0 package, licensed under GPL-2. The dataset name has been changed to 'atomic_bomb_survivors_df' to indicate that this dataset is a data frame object.
+
+- toyota_stock_prices_df:
+  Originally ToyotaMonthly from the MMAC 0.1.2 package, licensed under GPL (>= 2). The dataset name has been changed to 'toyota_stock_prices_df' to indicate that this dataset is a data frame object.
+
+- centenarian_df:
+  Originally centenarian from the depend.truncation 3.0 package, licensed under GPL-2. The dataset name has been changed to 'centenarian_df' to indicate that this dataset is a data frame object.
+
+- earthquake_station_sf:
+  Originally earthquake_station from the jmastats 0.3.0 package, licensed under MIT + file LICENSE. The dataset name has been changed to 'earthquake_station_sf' to indicate that this dataset is a sf (spatial features) object.
+
+- Dataset: shinkansen_stations_tbl_df
+   Originally Name or Title: Shinkansen_stations_inJapan.csv
+   Source: kaggle
+   URL: https://www.kaggle.com/datasets/japandata509/shinkansen-stations-in-japan
+   License: CC0: Public Domain
+
+- Dataset: japan_birth_stats_tbl_df
+   Originally Name or Title: japan_birth.csv
+   Source: kaggle
+   URL: https://www.kaggle.com/datasets/webdevbadger/japan-birth-statistics
+   License: CC0: Public Domain
+
+- Dataset: japan_universities_tbl_df
+   Originally Name or Title: japanese_universities.csv
+   Source: kaggle
+   URL: https://www.kaggle.com/datasets/webdevbadger/japanese-universities
+   License: CC0: Public Domain
+
+- Dataset: japan_population_tbl_df
+   Originally Name or Title: Japan_population_data.csv
+   Source: kaggle
+   URL: https://www.kaggle.com/datasets/jd1325/japan-population-data
+   License: CC0: Public Domain
+
+- Dataset: japanese_whisky_tbl_df
+   Originally Name or Title: japanese_whisky_review.csv
+   Source: kaggle
+   URL: https://www.kaggle.com/datasets/koki25ando/japanese-whisky-review
+   License: CC0: Public Domain
+
+- Dataset: J1League_tbl_df
+   Originally Name or Title: results.csv
+   Source: kaggle
+   URL: https://www.kaggle.com/datasets/irkaal/japanese-j1-league
+   License: CC0: Public Domain
+
+- Dataset: jpn_suicides_tbl_df
+   Originally Name or Title: suicide_all.csv
+   Source: kaggle
+   URL: https://www.kaggle.com/datasets/krisztinboros/suicides-in-japan-by-sex-and-age-19782021
+   License: CC0: Public Domain
+
+- Dataset: kojima_tweets_tbl_df
+   Originally Name or Title: kojima_tweets.csv
+   Source: kaggle
+   URL: https://www.kaggle.com/datasets/luciesteel/kojima-tweets
+   License: CC0: Public Domain
+
+
+- Dataset: life_exp_japan_tbl_df
+   Originally Name or Title: Japan_life_expectancy.csv
+   Source: kaggle
+   URL: https://www.kaggle.com/datasets/gianinamariapetrascu/japan-life-expectancy
+   License: CC0: Public Domain
+
+
+## License
+
+All datasets in this package are provided under the same licenses as their original sources. The licensing information and any specific attribution required for each dataset can be found within their respective packages. Users must adhere to the licensing terms specified by each original source.
+
+The code in this package, `JapanAPIs`, is licensed under the MIT License. See the LICENSE file in the root directory for details.

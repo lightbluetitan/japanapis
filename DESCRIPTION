@@ -1,0 +1,46 @@
+Package: JapanAPIs
+Type: Package
+Title: Access Japanese Data via Public APIs and Curated Datasets
+Version: 0.1.0
+Maintainer: Renzo Caceres Rossi <arenzocaceresrossi@gmail.com>
+Description: Provides functions to access data from public RESTful APIs including 
+    'Nager.Date', 'World Bank API', and 'REST Countries API', retrieving real-time or historical 
+    data related to Japan, such as holidays, economic indicators, and international 
+    demographic and geopolitical indicators. Additionally, the package includes one of the largest 
+    curated collections of open datasets focused on Japan, covering topics such as natural disasters, 
+    economic production, vehicle industry, air quality, demographics, and administrative divisions. 
+    The package supports reproducible research and teaching by integrating reliable international 
+    APIs and structured datasets from public, academic, and government sources.
+    For more information on the APIs, see: 
+    'Nager.Date' <https://date.nager.at/Api>, 
+    'World Bank API' <https://datahelpdesk.worldbank.org/knowledgebase/articles/889392>, 
+    and 'REST Countries API' <https://restcountries.com/>.
+License: MIT + file LICENSE
+URL: https://github.com/lightbluetitan/japanapis, http://lightbluetitan.github.io/japanapis/
+BugReports: https://github.com/lightbluetitan/japanapis/issues
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1.0)
+Imports:
+    utils,
+    httr,
+    jsonlite,
+    dplyr,
+    scales,
+    tibble
+Suggests:
+    ggplot2,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Authors@R: 
+    person(
+        given = "Renzo",
+        family = "Caceres Rossi",
+        role = c("aut", "cre"),
+        email = "arenzocaceresrossi@gmail.com",
+        comment = c(ORCID = "0009-0005-0744-854X")
+    )
+RoxygenNote: 7.3.2
+Config/testthat/edition: 3
+VignetteBuilder: knitr

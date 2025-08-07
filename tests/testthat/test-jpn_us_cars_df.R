@@ -1,0 +1,41 @@
+# JapanAPIs - Access Japanese Data via Public APIs and Curated Datasets
+# Version 0.1.0
+# Copyright (c) 2025 Renzo Caceres Rossi
+# Licensed under the MIT License.
+# See the LICENSE file in the root directory for full license text.
+
+# jpn_us_cars_df
+
+
+library(testthat)
+
+# Test 1: Confirm the object is a data frame (not a tibble)
+test_that("jpn_us_cars_df is a data frame", {
+  expect_s3_class(jpn_us_cars_df, "data.frame")
+  expect_false("tbl_df" %in% class(jpn_us_cars_df))  # Ensure it's not a tibble
+})
+
+# Test 2: Confirm it has exactly 4 columns
+test_that("jpn_us_cars_df has 4 columns", {
+  expect_equal(length(jpn_us_cars_df), 4)
+})
+
+# Test 3: Confirm it has exactly 45 rows
+test_that("jpn_us_cars_df has 45 rows", {
+  expect_equal(nrow(jpn_us_cars_df), 45)
+})
+
+# Test 4: Confirm column names are correct
+test_that("jpn_us_cars_df has correct column names", {
+  expect_named(jpn_us_cars_df, c(
+    "Model", "Country", "Mileage", "Price"
+  ))
+})
+
+# Test 5: Confirm column types are correct
+test_that("jpn_us_cars_df columns have correct types", {
+  expect_type(jpn_us_cars_df$Model, "integer")   # Factors are internally integer
+  expect_type(jpn_us_cars_df$Country, "integer") # Factors are internally integer
+  expect_type(jpn_us_cars_df$Mileage, "integer")
+  expect_type(jpn_us_cars_df$Price, "integer")
+})
