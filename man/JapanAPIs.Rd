@@ -7,7 +7,7 @@
 \title{JapanAPIs: Access Japanese Data via Public APIs and Curated Datasets}
 \description{
 {
-This package provides functions to access data from public RESTful APIs including 'Jikan API', 'Nager.Date', 'World Bank API', and 'REST Countries API', retrieving real-time or historical data related to Japan, such as holidays, economic indicators, anime metadata, and international demographic and geopolitical indicators. Additionally, the package includes one of the largest  curated collections of open datasets focused on Japan, covering topics such as natural disasters, economic production, vehicle industry, air quality, demographics, and administrative divisions.
+This package provides functions to access data from public RESTful APIs including 'Nager.Date', 'World Bank API', and 'REST Countries API', retrieving real-time or historical data related to Japan, such as holidays, economic indicators, international demographic and geopolitical indicators. Additionally, the package includes one of the largest  curated collections of open datasets focused on Japan, covering topics such as natural disasters, economic production, vehicle industry, air quality, demographics, and administrative divisions.
 }
 }
 \details{

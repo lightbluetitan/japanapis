@@ -20,9 +20,5 @@ This package uses the following APIs to retrieve curated or real-time data. Each
    Notes: This API and its underlying codebase are released under the MPL 2.0 license.
           For more information, see the LICENSE file available in its source code repository.
 
-4.- API: Jikan API
-    Website: https://docs.api.jikan.moe/
-    License: MIT License
-    Notes: The API and its source code are licensed under the MIT License. No authentication is required for the public API.
 
 Disclaimer: The JapanAPIs package does not own or control the APIs listed above. This documentation is provided to promote responsible and transparent reuse of public data sources.

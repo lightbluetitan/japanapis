@@ -12,7 +12,7 @@ You can install the `JapanAPIs` package from CRAN with the following R function:
 
 ```R
 
-install.packages("JapanAPis")
+install.packages("JapanAPIs")
 
 ```
 

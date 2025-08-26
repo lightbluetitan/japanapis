@@ -16,7 +16,8 @@ Description: Provides functions to access data from public RESTful APIs includin
     'World Bank API' <https://datahelpdesk.worldbank.org/knowledgebase/articles/889392>, 
     and 'REST Countries API' <https://restcountries.com/>.
 License: MIT + file LICENSE
-URL: https://github.com/lightbluetitan/japanapis, http://lightbluetitan.github.io/japanapis/
+Language: en
+URL: https://github.com/lightbluetitan/japanapis, https://lightbluetitan.github.io/japanapis/
 BugReports: https://github.com/lightbluetitan/japanapis/issues
 Encoding: UTF-8
 LazyData: true
